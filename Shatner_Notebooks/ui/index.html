@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shatner Notebooks</title>
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="journal">
+        <div id="pages">
+            <div id="left-page" class="page">
+                <div id="editor-left"></div>
+                <div id="left-corner" class="page-corner"></div>
+                <div id="left-page-number" class="page-number"></div>
+            </div>
+            <div id="right-page" class="page">
+                <div id="editor-right"></div>
+                <div id="right-corner" class="page-corner"></div>
+                <div id="right-page-number" class="page-number"></div>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="save">Save</button>
+            <button id="close">Close</button>
+        </div>
+    </div>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
